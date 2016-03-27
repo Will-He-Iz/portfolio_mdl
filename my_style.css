@@ -1,0 +1,33 @@
+/*=======================
+Layout
+=======================*/
+
+.mdl-grid {
+  padding-top: 90px;
+}
+
+.content-grid {
+  max-width: 960px;
+}
+
+.mdl-cell {
+  background: grey;
+}
+
+.mdl-card__media {
+    margin: 0;
+}
+
+/*=======================
+Cards
+=======================*/
+
+.homepage__thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.mdl-card {
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
