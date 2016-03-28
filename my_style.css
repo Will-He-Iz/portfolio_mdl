@@ -5,6 +5,7 @@ Layout
 .content-grid {
   max-width: 960px;
   padding-top: 90px;
+  box-sizing: border-box;
 }
 
 .mdl-card__media {
