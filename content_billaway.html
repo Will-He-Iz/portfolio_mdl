@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>mdl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.green-deep_orange.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./my_style.css">
+  </head>
+
+  <body>
+    <!-- Simple header with fixed tabs. -->
+
+    <!-- Header, tabs, grid all part of layout outer div -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Will Greenaway's Portfolio</span>
+          <!-- Spacer place nav on the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only"> <!-- Hide at smaller screen sizes -->
+            <a class="mdl-navigation__link" href="index.html">Portfolio</a>
+            <a class="mdl-navigation__link" href="#">About</a>
+            <a class="mdl-navigation__link" href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Title</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="index.html">Portfolio</a>
+          <a class="mdl-navigation__link" href="#">About</a>
+          <a class="mdl-navigation__link" href="#">Contact</a>
+        </nav>
+      </div>
+
+      <!-- Content Element of Layout block -->
+      <main class="my-main mdl-layout__content">
+        <div class="my-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+              <div class="page-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
+                <div class="crumbs mdl-color-text--grey-500">
+                  Google &gt; Material Design Lite &gt; How to install MDL
+                </div>
+                <h1>GULF BILLAWAY REWARDS</h1>
+                <img class ="mdl-cell mdl-cell--12-col" src="images/billaway.png" />
+                <p>What if your reward points didn’t just earn you small discounts?  What if your online shopping could help you pay off bills?  This is exactly what the Gulf Billaway Rewards platform does.  This is the story of how I re-designed it.
+</p>
+<h3>MY ROLE</h3>
+I was part of a small team of three including a lead UX Designer, Jeremy and Vanessa the UI Designer.  I was responsible for the main User Experience design.
+<h5>INTERACTION DESIGN</h5>
+This included developing simple prototypes based off wireframes.
+<h5>UX DESIGN</h5>
+
+<p>
+I developed the personas, conducted the heuristic review of the existing platform, prioritized user goals, built user flows, user journey maps, and created sitemaps.
+</p>
+
+<h3>CHALLENGE</h3>
+
+<h5>USERS MUST UNDERSTAND AND ADOPT THE BILLAWAY PLATFORM</h5>
+
+The current service was already live at the time.  The basic website functions existed but there were some issues with the service.  Based on initial client feedback we knew that many users were not adopting the service and were not accessing key features and functions.
+I was tasked with redeveloping the existing site into a design that eased users into a  smoother adoption of the service by Gulf customers.  Functions such as redeeming reward points, shopping, and downloading plugins were some of the areas I needed to address in my design.
+
+<h3>APPROACH</h3>
+
+<h5>AGILE DESIGN IN A REMOTE ENVIRONMENT</h5>
+
+<p>
+  One of the challenges of this particular project was working with a distributed team located in three different states.  Communication in the design process is crucial-- especially in an agile approach to design.  In order to make sure that the designs were communicated to the client meeting their needs and expectations, the team broke the work into distinct phases.
+  The entire design period lasted 3-4 weeks.  Each phase lasted a week and at the end of each week the client reviewed the work, asked questions, proposed changes, and gave feedback.  At the start of the next week we would then continue to add the changes to the older slides and get started on the next phase of deliverables.
+  Along the way, the lead UX Designer Jeremy and I checked in every day or two to discuss my designs and came up with new ideas and designs to include.  Jeremy handled most of the client side responsibilities as he was the main point of contact with their team.  If I had any questions for the client I would also check in with them via our Basecamp account.
+
+</p>
+
+<h4>VISION</h4>
+<h5>REWARDS THAT SAVE YOU MONEY ON YOUR BILLS</h5>
+<p>
+  The Billaway service is a great rewards platform with a lot of potential.  The ability to quickly activate the cash-saving features along with the Bill-pay service was a key feature.  Users would have the ability to quickly navigate to their favorite stores, buy some items, and automatically have the cash back earned deposited in their account.  From here users could pay their bill at the end of the month and see how much they saved over time.
+</p>
+
+<h4>REQUIREMENTS</h4>
+<p>
+  First we prioritized the client's business model goals.  In order for the application to be successful it need to make money.  Distilling the challenges down into key money-making goals allowed us to focus user tasks and needs around the core business model that drove the product.  With the client’s input we  ranked the top revenue generation strategies for the product.
+</p>
+<ol>
+  <li>
+    Get them to download the Chrome plugin to make shopping easier
+  </li>
+  <li>
+    Get them to make an online purchase
+  </li>
+  <li>
+    Get them to print a coupon
+  </li>
+  <li>
+    Get them to register their loyalty cards
+  </li>
+</ol>
+
+
+
+
+<h3>DISCOVERY</h3>
+
+<h5>WHAT OUR USERS NEEDED</h5>
+
+<p>
+  The first step in understanding the user problems was to understand who the users were.  Based on client information that included the basic user demographics, use rate, and future customers, I created personas to define our user base and what their key concerns, goals, and issues were.  Two of the key personas that emerged was a busy mother who wanted to save money for her children's future education and the young professional who is always traveling and likes to save money on fashion purchases.
+</p>
+
+
+<p>
+  I used user journey mapping to help visualize and structure the overall interaction experience of the customer.  This helped to structure and identify pain points for the user over their entire experience utilizing the application.  With this map I was able to more deeply understand which points in the process streamlining would help drive user adoption rates up.
+  Reviewing all of the information about our user groups and their journey revealed the key pain points to be addressed with the design.  These areas were:
+
+  <ol>
+    <li>
+      Plugin download: One of the key features of the site was the Chrome plugin that allowed users to quickly activate cash-back on any of the participating sites.  The majority of users were not downloading the plugin.
+    </li>
+    <li>
+      User Purchase Journey: Users needed to be directed immediately to the shopping experience after registering for the site and quickly search for and filter results.
+    </li>
+    <li>
+      Homepage: Users had an opportunity on this page to get right into the purchase journey to save money at their favorite stores or clip coupons for their favorite products but the homepage's current design did not facilitate this.
+    </li>
+    <li>
+      Savings Tracking: The coupon clipping and cash-back from popular stores option could provide users with good savings over time.  Tracking this could help reinforce the importance of this application and how it was making the user money, saving them time, and also make them feel more awesome.
+    </li>
+    <li>
+      Onboarding: A lack of a strong onboarding process was a huge barrier to adoption of the Billaway service by the user group.  Without clear steps to get users introduced to unique features of the system users would most likely abandon Billaway without trying it.
+    </li>
+  </ol>
+</p>
+
+<h3>THE BUILD</h3>
+
+<h4>HOW WE DID IT</h4>
+
+<h5>USERS AND BUSINESS UNITE</h5>
+<p>
+  Using the user journey map, personas, and all of the other research I first quickly iterated on user flows to test out potential solutions for these key website interactions.  Working quickly with flows allowed me to focus more on the process and steps a user might take to complete an action rather than focus on the specific page layout.
+</p>
+
+
+
+
+
+<p>
+  Creating a sitemap allowed me to keep track of the different pages that were being re-designed and added to the website.  It also served as an important exercise thinking through the architecture of pages and how they fit into the scheme of the overall website.
+</p>
+
+
+
+<h5>SKETCHING IDEAS</h5>
+<p>
+  After creating my user flows and sitemap I dove into rapidly sketching and iterating wireframe designs.  Focusing on speed and quantity meant that I could explore different design options.  After combing through the different sketches and gathering feedback, I selected the designs that best met the needs and goals of the key personas and addressed the pain points in the user journey.
+</p>
+
+<h5>RAPID PROTOTYPING AND WIREFRAMING</h5>
+<p>
+  The key part of this design was building the wireframes, gaining feedback from the client, and performing some quick guerilla usability testing.  I decided to use Axure on this particular project to add some basic interactions to the wireframe.  Along the way, I performed some quick usability testing at coffee shops to gain some feedback on the wireframe design.
+</p>
+
+<h5>FINDING POPULAR DEALS</h5>
+
+<p>
+  We emphasized popular stores and deals on the homepage so users could quickly scan and find stores that they would like to shop at.  This would be key to get them to spend money on things they want.
+</p>
+
+
+
+<h5>REWARDING LEARNING</h5>
+
+<p>
+  The onboarding process helped users download the plugin, the coupons application, and gave them rewards to their account to do so.  The onboarding process also moved users directly into the purchase journey by having them select a reward to add to their cart immediately.
+</p>
+
+<h5>EXPLORING STORE DEALS</h5>
+
+<p>
+  Why not check out what other deals a store has? Or explore if there are any coupons at that particular store?  This screen helped users really dig into the various deals that could be found at a particular store.  This is a very natural search and browsing pattern that matched with store preferences that users have.
+</p>
+
+<h5>TRACKING REWARDS</h5>
+
+<p>
+  Providing a small dashboard where users can see their reward savings over time and also lists their reward cards linked to the application is an important feature to give users feedback on how the platform is improving their lives.  The dashboard also serves as a central and easy-access hub for making any changes and updates to a profile.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="my-footer mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <ul class="mdl-mini-footer--link-list">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy and Terms</a></li>
+              <li><a href="#">User Agreement</a></li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+  <!-- MDL Lite Javascript -->
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+</body>
+</html>
