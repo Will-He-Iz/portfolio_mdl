@@ -24,3 +24,39 @@ Cards
   margin-bottom: 20px;
   margin-right: 15px;
 }
+
+
+
+/*=======================
+Content
+=======================*/
+
+.my-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.page-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+
+.page-content h3 {
+  margin-top: 48px;
+}
+
+.my-footer {
+  padding-left: 40px;
+}
+
+.my-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+
+.my-container {
+  align-items: center;
+    justify-content: center;
+  }
